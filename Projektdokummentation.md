@@ -20,8 +20,8 @@ Ich erstelle in diesem Projekt eine Webseite, über mich auf welcher man meine P
 
 ### 1.2 User Stories
 
-| US-№ | Verbindlichkeit | Typ         | Beschreibung                                                    | Geplante Zeit (Lektionen) |
-| ---- | --------------- | ----------- | --------------------------------------------------------------- | ------------------------- |
+| US-№ | Verbindlichkeit | Typ         | Beschreibung                                                    |
+| ---- | --------------- | ----------- | --------------------------------------------------------------- | 
 | 1    | Muss            | Funktional  | Als ein Besucher möchte ich die Startseite sehen, damit ich sofort einen Überblick über die Website-Inhalte bekomme. |
 | 2    | Muss            | Funktional  | Als ein Besucher möchte ich ein Portfolio mit Projekten sehen, damit ich mehr über die Fähigkeiten des Websiten-Besitzers erfahre. | 
 | 3    | Kann            | Qualität    | Als ein Besucher möchte ich eine reaktionsschnelle Benutzeroberfläche, damit ich die Website auf verschiedenen Geräten problemlos nutzen kann. | 
