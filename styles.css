@@ -7,13 +7,13 @@
 }
 
 body {
-  background-color: #f7f9fc;
+  background-color: #DFF2EB; /* Light green */
   color: #333;
   line-height: 1.6;
 }
 
 header {
-  background-color: #007bff;
+  background-color: #4A628A; /* Dark blue-gray */
   color: #fff;
   padding: 15px 0;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -37,7 +37,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #ffdf00;
+  color: #B9E5E8; /* Light cyan */
 }
 
 /* Section styling */
@@ -46,7 +46,7 @@ main {
 }
 
 section {
-  background-color: #fff;
+  background-color: #fff; /* White */
   margin: 20px 0;
   padding: 30px;
   border-radius: 10px;
@@ -60,7 +60,7 @@ section:hover {
 }
 
 section h1, section h2 {
-  color: #007bff;
+  color: #4A628A; /* Dark blue-gray */
   margin-bottom: 20px;
 }
 
@@ -95,18 +95,18 @@ footer {
 }
 
 footer a {
-  color: #007bff;
+  color: #B9E5E8; /* Light cyan */
   text-decoration: none;
   margin: 0 10px;
 }
 
 footer a:hover {
-  color: #ffdf00;
+  color: #ffdf00; /* Yellow */
 }
 
 /* Buttons */
 button, .btn {
-  background-color: #007bff;
+  background-color: #4A628A; /* Dark blue-gray */
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -124,7 +124,7 @@ form {
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #fff;
+  background-color: #fff; /* White */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
 }
@@ -149,7 +149,7 @@ form textarea {
 }
 
 form input[type="submit"] {
-  background-color: #007bff;
+  background-color: #4A628A; /* Dark blue-gray */
   color: #fff;
   border: none;
   padding: 10px 20px;
