@@ -10,7 +10,7 @@
     <header>
       <nav>
         <ul>
-          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html" class="active">Home</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="about.html">Über mich</a></li>
           <li><a href="contact.html">Kontakt</a></li>
@@ -19,15 +19,62 @@
     </header>
 
     <main>
-      <section class="hero">
+      <!-- Hero-Bereich -->
+      <section id="hero" style="background-image: url('img/hero-background.jpg'); background-size: cover; padding: 50px; color: white;">
         <h1>Willkommen auf meiner Website</h1>
-        <p>Erfahre mehr über meine Projekte und Fähigkeiten.</p>
+        <p>Erfahre mehr über meine Projekte, Fähigkeiten und wie du mich kontaktieren kannst.</p>
+        <div>
+          <a href="portfolio.html" class="button">Portfolio ansehen</a>
+          <a href="about.html" class="button">Mehr über mich</a>
+          <a href="contact.html" class="button">Kontakt aufnehmen</a>
+        </div>
+      </section>
+
+      
+      <section id="projects-preview">
+        <h2>Einblicke in meine Projekte</h2>
+        <article>
+          <img src="Bomberman.png" alt="Ingame Screenshot" />
+          <h3>Bomberman</h3>
+          <p>Kleines Bomberman Projekt, dass eine interessante KI beinhaltet, gegen man antreten kann.</p>
+          <a href="portfolio.html" class="button">Mehr erfahren</a>
+        </article>
+        <article>
+          <img src="Zombie.png" alt="Ingame Screenshot" />
+          <h3>3D Zombie Survival Game</h3>
+          <p>Witziges 3d Unity Spiel, in dem man gegen Zombies kämpfen kann und versuchen muss zu überleben</p>
+          <a href="portfolio.html" class="button">Mehr erfahren</a>
+        </article>
+      </section>
+
+      <!-- Testimonials -->
+      <section id="testimonials">
+        <h2>Was andere über mich sagen</h2>
+        <blockquote>
+          <p>"Ein hervorragender Entwickler mit einem Auge für Details!" - Kunde A</p>
+        </blockquote>
+        <blockquote>
+          <p>"Hat großartige Arbeit geleistet und die Erwartungen übertroffen!" - Kunde B</p>
+        </blockquote>
+      </section>
+
+      <!-- Neueste Beiträge -->
+      <section id="latest-posts">
+        <h2>Neueste Beiträge</h2>
+        <article>
+          <h3><a href="blog/post1.html">Titel des Blogbeitrags 1</a></h3>
+          <p>Kurze Zusammenfassung des Inhalts...</p>
+        </article>
+        <article>
+          <h3><a href="blog/post2.html">Titel des Blogbeitrags 2</a></h3>
+          <p>Kurze Zusammenfassung des Inhalts...</p>
+        </article>
       </section>
     </main>
 
     <footer>
       <p>&copy; 2024 Dein Name. Alle Rechte vorbehalten.</p>
-      <a href="#">Twitter</a> | <a href="#">LinkedIn</a>
+      <a href="https://www.youtube.com/@Dreec4">YouTube</a> | <a href="https://github.com/LukasHeiniger">GitHub</a>
     </footer>
 
     <script src="js/script.js"></script>
