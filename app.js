@@ -1,16 +1,19 @@
-document.addEventListener("DOMContentLoaded", () => {
-    const themeToggleBtn = document.getElementById("switch");
-    
-    document.body.classList.add("light-mode");
-    themeToggleBtn.textContent = "Wechsel zu Dunkelmodus";
+document.addEventListener('DOMContentLoaded', function() {
+    const toggleSwitch = document.getElementById('switch'); 
+    const currentTheme = localStorage.getItem('theme') || 'light';
 
-    themeToggleBtn.addEventListener("click", () => {
-        if (document.body.classList.contains("dark-mode")) {
-            document.body.classList.replace("dark-mode", "light-mode");
-            themeToggleBtn.textContent = "Wechsel zu Dunkelmodus";
-        } else {
-            document.body.classList.replace("light-mode", "dark-mode");
-            themeToggleBtn.textContent = "Wechsel zu Lichtmodus";
-        }
+    
+    document.body.setAttribute('data-theme', currentTheme);
+    if (currentTheme === 'dark') {
+        toggleSwitch.checked = true;
+    }
+
+
+    toggleSwitch.addEventListener('click', function() { 
+        const newTheme = toggleSwitch.checked ? 'dark' : 'light';
+        document.body.setAttribute('data-theme', newTheme);
+        document.querySelectorAll('nav, #home, #portfolio, #contact, footer, .project')
+            .forEach(el => el.setAttribute('data-theme', newTheme));
+        localStorage.setItem('theme', newTheme);
     });
 });
