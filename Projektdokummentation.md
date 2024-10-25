@@ -100,7 +100,7 @@ Total:
 | 3.A  |  06.09.24      |  Lukas         |  45 min            |    45 min                 |
 | 4.A  |  06.09.24     |  Lukas         |   45 min          |    45 min                 |
 | 5.A  | 06.09.24    |  Lukas         |  45 min            |    45 min                 |
-| 7.A  |  06.09.24    |  Lukas         |   45 min          |  Nicht umgesetzt                 |
+| 7.A  |     |  Lukas         |   45 min          |  Nicht umgesetzt                 |
 | 8.A  | 13.09.24        |  Lukas         |  45 min            |   45 min                  |
 | 9.A  |  13.09.24   |  Lukas         |   45 min          |     45 min                |
 | 10.A  |13.09.24     |  Lukas         |  45 min            |     45 min                |
