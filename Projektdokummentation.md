@@ -47,14 +47,6 @@ Ich erstelle in diesem Projekt eine Webseite, über mich auf welcher man meine P
 | 1.8  | Benutzer wählt zwischen hellem und dunklem Modus                                                              | Umschaltfunktion für Modus aktivieren                          | Die Website wechselt zum ausgewählten Modus, und Farben passen sich dem gewählten Modus an              |
 | 1.9  | Benutzer navigiert durch die Seiten oder Abschnitte                                                           | Seite oder Abschnitt wechseln                                  | Animierte Übergänge zwischen den Seiten oder Abschnitten sind sichtbar und verbessern die Benutzererfahrung |
 
-
-
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
-
-### 1.4 Diagramme
-
-✍️ Hier können Sie PAPs, Use Case- und Gantt-Diagramme oder Ähnliches einfügen.
-
 ## 2 Planen
 
 | AP-№ | Frist | Zuständig  | Beschreibung                                                                 | geplante Zeit |
@@ -86,7 +78,7 @@ Total:
 
 ## 3 Entscheiden
 
-✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
+Ich habe realisiert, dass ich das nächste Mal die Planung besser gestalten soll.
 
 ## 4 Realisieren
 
@@ -116,9 +108,6 @@ Total:
 
 
 
-
-✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
-
 ## 5 Kontrollieren
 
 ### 5.1 Testprotokoll
@@ -142,8 +131,7 @@ Fazit:
 Ich bin nicht wirklich zufrieden mit meinem Projekt, ich hätte mehr machen müssen, damit ich zufrieden gewesen wäre. Ich denke aber, dass das, was ich gemacht habe, ist einigermassen gut.
 
 
-✍️ Verwenden Sie römische Ziffern für Ihre Bug Reports, also I, II, III, IV etc.
-
 ## 6 Auswerten
 
+Link zum Portfoliobeitrag: https://portfolio.bbbaden.ch/view/view.php?t=0055a491798c7a14b92f
 
