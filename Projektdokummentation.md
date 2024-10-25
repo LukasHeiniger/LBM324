@@ -79,6 +79,8 @@ Ich erstelle in diesem Projekt eine Webseite, über mich auf welcher man meine P
 | 15.A |       | Lukas      | Barrierefreiheit sicherstellen: Alt-Text, Kontraste, semantisches HTML verwenden |               |
 | 16.A |       | Lukas      | Design für hellen und dunklen Modus mit CSS erstellen                          |               |
 | 16.B |       | Lukas      | Umschaltfunktion für hellen und dunklen Modus mit JavaScript umsetzen           |               |
+| 17.A |       | Lukas      | Projektdokumentation          |               |
+| 17.B |       | Lukas      | Portfoliobeitrag          |               |
 Total: 
 
 
@@ -90,8 +92,30 @@ Total:
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |           |               |                   |
-| ...  |       |           |               |                   |
+| 1.A  | 30.08.24       |  Lukas         |   45 min          |   45 min                  |
+|1.B  |  30.08.24      |  Lukas         |  45 min            |   45 min                  |
+| 2.A  |  30.08.24      |  Lukas         |   45 min          |    45 min                 |
+| 2.B  | 30.08.24       |  Lukas         |  45 min            |    45 min                 |
+| 2.C  |  30.08.24     |  Lukas         |   45 min          |    45 min                 |
+| 3.A  |  06.09.24      |  Lukas         |  45 min            |    45 min                 |
+| 4.A  |  06.09.24     |  Lukas         |   45 min          |    45 min                 |
+| 5.A  | 06.09.24    |  Lukas         |  45 min            |    45 min                 |
+| 7.A  |  06.09.24    |  Lukas         |   45 min          |  Nicht umgesetzt                 |
+| 8.A  | 13.09.24        |  Lukas         |  45 min            |   45 min                  |
+| 9.A  |  13.09.24   |  Lukas         |   45 min          |     45 min                |
+| 10.A  |13.09.24     |  Lukas         |  45 min            |     45 min                |
+| 11.A  |  14.10.24       |  Lukas         |   45 min          |    45 min                 |
+| 12.A  |  14.10.24       |  Lukas         |  45 min            |     45 min                |
+| 13.A  |       |  Lukas         |  45 min            |  Nicht umgesetzt                 |
+| 14.A  | 14.10.24      |  Lukas         |   45 min          |   45 min                 |
+| 15.A  |       |  Lukas         |  45 min            | Nicht umesetzt                  |
+| 16.A  | 25.10.24         |  Lukas         |  45 min            |  45 min                   |
+| 16.B  | 25.10.24         |  Lukas         |   45 min          |    45 min                 |
+| 17.A | 25.10.24 Abgeschlossen      | Lukas      | Projektdokumentation          | 2 Lektionen              |
+| 17.B | 25.10.24         | Lukas      | Portfoliobeitrag          |  3 lektionen             |
+
+
+
 
 ✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
 
