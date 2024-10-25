@@ -1,4 +1,3 @@
-/* Global styles */
 * {
   margin: 0;
   padding: 0;
@@ -15,16 +14,16 @@ body{
 }
 
 .fade-out {
-  opacity: 0; /* Ausblenden */
+  opacity: 0; 
 }
 
 .fade-in {
-  opacity: 1; /* Einblenden */
+  opacity: 1; 
 }
 
 
 header {
-  background-color: #4A628A; /* Dark blue-gray */
+  background-color: #4A628A; 
   color: #fff;
   padding: 15px 0;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -48,16 +47,16 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #B9E5E8; /* Light cyan */
+  color: #B9E5E8; 
 }
 
-/* Section styling */
+
 main {
   padding: 40px 20px;
 }
 
 section {
-  background-color: #fff; /* White */
+  background-color: #fff; 
   margin: 20px 0;
   padding: 30px;
   border-radius: 10px;
@@ -71,7 +70,7 @@ section:hover {
 }
 
 section h1, section h2 {
-  color: #4A628A; /* Dark blue-gray */
+  color: #4A628A; 
   margin-bottom: 20px;
 }
 
@@ -97,7 +96,7 @@ section h3 {
   color: #333;
 }
 
-/* Footer */
+
 footer {
   background-color: #333;
   color: #fff;
@@ -106,18 +105,18 @@ footer {
 }
 
 footer a {
-  color: #B9E5E8; /* Light cyan */
+  color: #B9E5E8; 
   text-decoration: none;
   margin: 0 10px;
 }
 
 footer a:hover {
-  color: #ffdf00; /* Yellow */
+  color: #ffdf00; 
 }
 
-/* Buttons */
+
 button, .btn {
-  background-color: #4A628A; /* Dark blue-gray */
+  background-color: #4A628A; 
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -130,12 +129,12 @@ button:hover, .btn:hover {
   background-color: #0056b3;
 }
 
-/* Contact form */
+
 form {
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #fff; /* White */
+  background-color: #fff; 
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
 }
@@ -160,7 +159,7 @@ form textarea {
 }
 
 form input[type="submit"] {
-  background-color: #4A628A; /* Dark blue-gray */
+  background-color: #4A628A; 
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -180,7 +179,7 @@ form input[type="submit"]:hover {
 }
 
 .portfolio-item {
-  width: 48%; /* Zwei Spalten mit etwas Abstand dazwischen */
+  width: 48%; 
   margin-bottom: 20px;
 }
 
@@ -194,7 +193,7 @@ form input[type="submit"]:hover {
 
 iframe {
   width: 100%;
-  height: 250px; /* Höhe des eingebetteten Videos */
+  height: 250px; 
 }
 
 p {
@@ -202,14 +201,14 @@ p {
   font-size: 16px;
 }
 
-/* Dark Mode Farben */
+
 [data-theme='dark'] {
-  background-color: #171010; /* Dunkler Hintergrund */
-  color: #fff; /* Helle Schriftfarbe */
+  background-color: #171010; 
+  color: #fff;
 }
 
 [data-theme='dark'] header {
-  background-color: #362222; /* Dunkelrot */
+  background-color: #362222; 
   color: #fff;
 }
 
@@ -218,62 +217,62 @@ p {
 }
 
 [data-theme='dark'] nav ul li a:hover {
-  color: #423F3E; /* Hellgrau */
+  color: #423F3E; 
 }
 
 [data-theme='dark'] section {
-  background-color: #2B2B2B; /* Dunkelgrau */
+  background-color: #2B2B2B; 
   color: #fff;
 }
 
 [data-theme='dark'] section h1, 
 [data-theme='dark'] section h2, 
 [data-theme='dark'] section h3 {
-  color: #fff; /* Helle Schriftfarbe für Überschriften */
+  color: #fff; 
 }
 
 [data-theme='dark'] footer {
-  background-color: #362222; /* Dunkelrot */
+  background-color: #362222; 
   color: #fff;
 }
 
 [data-theme='dark'] footer a {
-  color: #423F3E; /* Hellgrau */
+  color: #423F3E; 
 }
 
 [data-theme='dark'] footer a:hover {
-  color: #ffdf00; /* Gelb */
+  color: #ffdf00;
 }
 
 [data-theme='dark'] button, 
 [data-theme='dark'] .btn {
-  background-color: #362222; /* Dunkelrot */
+  background-color: #362222; 
   color: #fff;
 }
 
 [data-theme='dark'] button:hover, 
 [data-theme='dark'] .btn:hover {
-  background-color: #423F3E; /* Hellgrau */
+  background-color: #423F3E; 
 }
 
 [data-theme='dark'] form {
-  background-color: #2B2B2B; /* Dunkelgrau */
+  background-color: #2B2B2B; 
   color: #fff;
 }
 
 [data-theme='dark'] form label {
-  color: #fff; /* Helle Schriftfarbe für Labels */
+  color: #fff; 
 }
 
 [data-theme='dark'] form input[type="text"], 
 [data-theme='dark'] form input[type="email"], 
 [data-theme='dark'] form textarea {
-  background-color: #423F3E; /* Hellgrau */
-  color: #fff; /* Helle Schriftfarbe für Eingabefelder */
+  background-color: #423F3E; 
+  color: #fff; 
 }
 
 [data-theme='dark'] form input[type="submit"] {
-  background-color: #362222; /* Dunkelrot */
+  background-color: #362222; 
   color: #fff;
 }
 
