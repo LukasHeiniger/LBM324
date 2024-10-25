@@ -46,7 +46,7 @@ Ich erstelle in diesem Projekt eine Webseite, über mich auf welcher man meine P
 | 1.7  | Benutzer verwendet die Filteroptionen auf der Portfolio-Seite                                                 | Filteroption (z. B. Kategorie) auswählen                       | Projekte werden gemäß der gewählten Filterkategorie gefiltert und angezeigt                             |
 | 1.8  | Benutzer wählt zwischen hellem und dunklem Modus                                                              | Umschaltfunktion für Modus aktivieren                          | Die Website wechselt zum ausgewählten Modus, und Farben passen sich dem gewählten Modus an              |
 | 1.9  | Benutzer navigiert durch die Seiten oder Abschnitte                                                           | Seite oder Abschnitt wechseln                                  | Animierte Übergänge zwischen den Seiten oder Abschnitten sind sichtbar und verbessern die Benutzererfahrung |
-| 1.10 | Benutzer mit Screenreader oder speziellen Anforderungen nutzt die Website (Barrierefreiheit)                  | Screenreader verwendet, Kontraste überprüfen                   | Screenreader erkennt Inhalte, alle Bilder haben Alt-Text, und hohe Kontraste sind für bessere Lesbarkeit vorhanden |
+
 
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
@@ -99,13 +99,23 @@ Total:
 
 ### 5.1 Testprotokoll
 
-| TC-№ | Datum | Resultat | Tester |
-| ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| TC-№ | Datum     | Resultat                | Tester        |
+| ---- | --------- | ----------------------- | ------------- |
+| 1.1  | 25.10.24  | Funktioniert            | Lukas Heiniger |
+| 1.2  | 25.10.24  | Funktioniert            | Lukas Heiniger |
+| 1.3  | 25.10.24  | Nicht umgesetzt         | Lukas Heiniger |
+| 1.4  | 25.10.24  | Funktioniert            | Lukas Heiniger |
+| 1.5  | 25.10.24  | Funktioniert            | Lukas Heiniger |
+| 1.6  | 25.10.24  | Nicht umgesetzt         | Lukas Heiniger |
+| 1.7  | 25.10.24  | Nicht umgesetzt         | Lukas Heiniger |
+| 1.8  | 25.10.24  | Funktioniert            | Lukas Heiniger |
+| 1.9  | 25.10.24  | Funktioniert            | Lukas Heiniger |
+
 
 
 Fazit:
+
+Ich bin nicht wirklich zufrieden mit meinem Projekt, ich hätte mehr machen müssen, damit ich zufrieden gewesen wäre. Ich denke aber, dass das, was ich gemacht habe, ist einigermassen gut.
 
 
 ✍️ Verwenden Sie römische Ziffern für Ihre Bug Reports, also I, II, III, IV etc.
