@@ -6,24 +6,23 @@
   font-family: 'Arial', sans-serif;
 }
 
-body {
-  background-color: #DFF2EB; /* Light green */
+body.light-mode {
+  background-color: #DFF2EB; 
   color: #333;
   line-height: 1.6;
 }
 
+body.dark-mode {
+  background-color: #e61a1a; 
+  color: #140c0c;
+  line-height: 1.6;
+}
 header {
   background-color: #4A628A; /* Dark blue-gray */
   color: #fff;
   padding: 15px 0;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-
-p {
-  text-align: left; 
-  font-size: 16px;
-}
-
 
 nav ul {
   list-style: none;
