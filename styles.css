@@ -10,6 +10,16 @@ body{
   background-color: #DFF2EB; 
   color: #333;
   line-height: 1.6;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+.fade-out {
+  opacity: 0; /* Ausblenden */
+}
+
+.fade-in {
+  opacity: 1; /* Einblenden */
 }
 
 
@@ -268,11 +278,23 @@ p {
 }
 
 
-/* Media queries for responsiveness */
+@media (max-width: 1024px) {
+  .portfolio-item {
+    width: 100%;
+  }
+
+  main {
+    padding: 15px;
+  }
+
+  form {
+    width: 100%;
+  }
+}
+
 @media (max-width: 768px) {
   nav ul {
     flex-direction: column;
-    
     align-items: center;
   }
 
@@ -280,7 +302,34 @@ p {
     margin: 10px 0;
   }
 
+  section, .portfolio-item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
   main {
-    padding: 20px 10px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  button, .btn {
+    padding: 8px 16px;
+  }
+
+  form input, form textarea {
+    padding: 8px;
+  }
+
+  form input[type="submit"] {
+    padding: 8px 16px;
+  }
+
+  iframe {
+    height: 200px;
   }
 }

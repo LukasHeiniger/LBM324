@@ -8,6 +8,38 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 
+const fadeOutAndNavigate = (url) => {
+    document.body.classList.add('fade-out'); 
+
+    
+    setTimeout(() => {
+        window.location.href = url; 
+    }, 200); 
+};
+
+
+document.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', function(event) {
+        if (this.href !== window.location.href) { 
+            event.preventDefault(); 
+            fadeOutAndNavigate(this.href); 
+        }
+    });
+});
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    document.body.classList.add('fade-in'); 
+
+    
+    setTimeout(() => {
+        document.body.classList.remove('fade-in');
+    }, 200); 
+
+    
+});
+
+
 document.addEventListener('DOMContentLoaded', () => {
     const themeToggleBtn = document.getElementById('theme-toggle');
 
