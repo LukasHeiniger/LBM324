@@ -49,26 +49,26 @@ Ich erstelle in diesem Projekt eine Webseite, über mich auf welcher man meine P
 
 | AP-№ | Frist | Zuständig  | Beschreibung                                                                 | geplante Zeit |
 | ---- | ----- | ---------- | ----------------------------------------------------------------------------- | ------------- |
-| 1.A  |       | Lukas      | Startseite mit statischen Inhalten erstellen, die eine Übersicht über alle wichtigen Inhalte bietet |               |
-| 1.B  |       | Lukas      | Gestaltung und Design der Startseite mit HTML/CSS                              |               |
-| 2.A  |       | Lukas      | Portfolio-Seite mit Projekten in HTML/CSS erstellen                            |               |
-| 2.B  |       | Lukas      | Layout und Design des Portfolios mit CSS und ggf. JavaScript                   |               |
-| 2.C  |       | Lukas      | Projektinformationen als statische Inhalte (z. B. in JSON oder direkt in HTML) einfügen |               |
-| 3.A  |       | Lukas      | Responsives Design mit CSS-Media-Queries für verschiedene Bildschirmgrößen umsetzen |               |
-| 4.A  |       | Lukas      | Kontaktseite mit HTML-Formular erstellen (E-Mail-Link oder externe Lösung nutzen) |               |
-| 5.A  |       | Lukas      | Social-Media-Links auf der Startseite und Kontaktseite einfügen (statisch)     |               |
-| 6.A  |       | Lukas      | Projektbeschreibungen als statische Inhalte zu jedem Projekt hinzufügen         |               |
-| 7.A  |       | Lukas      | Suchfunktion auf der Website mit JavaScript implementieren (z. B. clientseitige Filterung) |               |
-| 8.A  |       | Lukas      | Navigationsleiste erstellen und auf allen Seiten einbinden                      |               |
-| 9.A  |       | Lukas      | Feedback-Funktion mit statischem Formular (z. B. Mailto-Link oder Platzhalter) hinzufügen |               |
-| 10.A |       | Lukas      | Animierte Übergänge zwischen Seiten oder Abschnitten mit CSS-Transitions oder JavaScript erstellen |               |
-| 11.A |       | Lukas      | Detailseiten für jedes Projekt erstellen (separate HTML-Seiten oder modale Fenster) |               |
-| 12.A |       | Lukas      | „Über mich“-Seite in HTML/CSS erstellen und Inhalte gestalten                   |               |
-| 13.A |       | Lukas      | Filteroption für Projekte mit clientseitigem JavaScript (z. B. Kategorien filtern) |               |
-| 14.A |       | Lukas      | Ladeanimationen mit CSS (z. B. bei Seitenwechsel oder Bild-Laden) erstellen     |               |
-| 15.A |       | Lukas      | Barrierefreiheit sicherstellen: Alt-Text, Kontraste, semantisches HTML verwenden |               |
-| 16.A |       | Lukas      | Design für hellen und dunklen Modus mit CSS erstellen                          |               |
-| 16.B |       | Lukas      | Umschaltfunktion für hellen und dunklen Modus mit JavaScript umsetzen           |               |
+| 1.A  |       | Lukas      | Startseite mit statischen Inhalten erstellen, die eine Übersicht über alle wichtigen Inhalte bietet |  45 min              |
+| 1.B  |       | Lukas      | Gestaltung und Design der Startseite mit HTML/CSS                              | 45 min               |
+| 2.A  |       | Lukas      | Portfolio-Seite mit Projekten in HTML/CSS erstellen                            |  45 min              |
+| 2.B  |       | Lukas      | Layout und Design des Portfolios mit CSS und ggf. JavaScript                   |  45 min              |
+| 2.C  |       | Lukas      | Projektinformationen als statische Inhalte (z. B. in JSON oder direkt in HTML) einfügen |   45 min             |
+| 3.A  |       | Lukas      | Responsives Design mit CSS-Media-Queries für verschiedene Bildschirmgrößen umsetzen | 45 min               |
+| 4.A  |       | Lukas      | Kontaktseite mit HTML-Formular erstellen (E-Mail-Link oder externe Lösung nutzen) |  45 min              |
+| 5.A  |       | Lukas      | Social-Media-Links auf der Startseite und Kontaktseite einfügen (statisch)     |   45 min             |
+| 6.A  |       | Lukas      | Projektbeschreibungen als statische Inhalte zu jedem Projekt hinzufügen         |   45 min             |
+| 7.A  |       | Lukas      | Suchfunktion auf der Website mit JavaScript implementieren (z. B. clientseitige Filterung) |     45 min           |
+| 8.A  |       | Lukas      | Navigationsleiste erstellen und auf allen Seiten einbinden                      |     45 min           |
+| 9.A  |       | Lukas      | Feedback-Funktion mit statischem Formular (z. B. Mailto-Link oder Platzhalter) hinzufügen |    45 min            |
+| 10.A |       | Lukas      | Animierte Übergänge zwischen Seiten oder Abschnitten mit CSS-Transitions oder JavaScript erstellen |  45 min              |
+| 11.A |       | Lukas      | Detailseiten für jedes Projekt erstellen (separate HTML-Seiten oder modale Fenster) |  45 min              |
+| 12.A |       | Lukas      | „Über mich“-Seite in HTML/CSS erstellen und Inhalte gestalten                   |   45 min             |
+| 13.A |       | Lukas      | Filteroption für Projekte mit clientseitigem JavaScript (z. B. Kategorien filtern) |  45 min              |
+| 14.A |       | Lukas      | Ladeanimationen mit CSS (z. B. bei Seitenwechsel oder Bild-Laden) erstellen     |    45 min            |
+| 15.A |       | Lukas      | Barrierefreiheit sicherstellen: Alt-Text, Kontraste, semantisches HTML verwenden | 45 min               |
+| 16.A |       | Lukas      | Design für hellen und dunklen Modus mit CSS erstellen                          |   45 min             |
+| 16.B |       | Lukas      | Umschaltfunktion für hellen und dunklen Modus mit JavaScript umsetzen           |  45 min              |
 | 17.A |       | Lukas      | Projektdokumentation          |               |
 | 17.B |       | Lukas      | Portfoliobeitrag          |               |
 Total: 
