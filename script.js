@@ -20,7 +20,7 @@ const fadeOutAndNavigate = (url) => {
 
 document.querySelectorAll('a').forEach(link => {
     link.addEventListener('click', function(event) {
-        if (this.href !== window.location.href) { 
+        if (this.href !== window.location.href && this.pathname !== window.location.pathname) { 
             event.preventDefault(); 
             fadeOutAndNavigate(this.href); 
         }
