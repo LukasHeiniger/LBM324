@@ -19,6 +19,12 @@ header {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+p {
+  text-align: left; 
+  font-size: 16px;
+}
+
+
 nav ul {
   list-style: none;
   display: flex;
@@ -159,6 +165,36 @@ form input[type="submit"] {
 
 form input[type="submit"]:hover {
   background-color: #0056b3;
+}
+
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.portfolio-item {
+  width: 48%; /* Zwei Spalten mit etwas Abstand dazwischen */
+  margin-bottom: 20px;
+}
+
+.portfolio-item.left {
+  float: left;
+}
+
+.portfolio-item.right {
+  float: right;
+}
+
+iframe {
+  width: 100%;
+  height: 250px; /* Höhe des eingebetteten Videos */
+}
+
+p {
+  text-align: center;
+  font-size: 16px;
 }
 
 /* Media queries for responsiveness */
