@@ -6,7 +6,7 @@ describe('Theme Toggle Button Test', () => {
 
     cy.get('#theme-toggle').should('exist');
 
- 
+
     cy.get('html').should('not.have.attr', 'data-theme', 'dark');
 
 
@@ -18,7 +18,7 @@ describe('Theme Toggle Button Test', () => {
 
     cy.get('#theme-toggle').click();
 
- 
+
     cy.get('html').should('not.have.attr', 'data-theme', 'dark');
   });
 });

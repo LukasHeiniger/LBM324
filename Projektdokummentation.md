@@ -13,23 +13,23 @@ Ich erstelle in diesem Projekt eine Webseite, über mich auf welcher man meine P
 ### 1.2 User Stories
 
 | US-№ | Verbindlichkeit | Typ         | Beschreibung                                                    |
-| ---- | --------------- | ----------- | --------------------------------------------------------------- | 
+| ---- | --------------- | ----------- | --------------------------------------------------------------- |
 | 1    | Muss            | Funktional  | Als ein Besucher möchte ich die Startseite sehen, damit ich sofort einen Überblick über die Website-Inhalte bekomme. |
-| 2    | Muss            | Funktional  | Als ein Besucher möchte ich ein Portfolio mit Projekten sehen, damit ich mehr über die Fähigkeiten des Websiten-Besitzers erfahre. | 
-| 3    | Kann            | Qualität    | Als ein Besucher möchte ich eine reaktionsschnelle Benutzeroberfläche, damit ich die Website auf verschiedenen Geräten problemlos nutzen kann. | 
+| 2    | Muss            | Funktional  | Als ein Besucher möchte ich ein Portfolio mit Projekten sehen, damit ich mehr über die Fähigkeiten des Websiten-Besitzers erfahre. |
+| 3    | Kann            | Qualität    | Als ein Besucher möchte ich eine reaktionsschnelle Benutzeroberfläche, damit ich die Website auf verschiedenen Geräten problemlos nutzen kann. |
 | 4    | Muss            | Funktional  | Als ein Besucher möchte ich eine Kontaktseite sehen, damit ich den Websiten-Besitzer direkt kontaktieren kann. |
 | 5    | Kann            | Rand        | Als ein Besucher möchte ich Social-Media-Links sehen, damit ich dem Websiten-Besitzer auf anderen Plattformen folgen kann. |
 | 6    | Muss            | Funktional  | Als ein Besucher möchte ich die Möglichkeit haben, eine Projektbeschreibung zu jedem Projekt im Portfolio zu sehen, damit ich mehr Details erfahre. |
 | 7    | Kann            | Qualität    | Als ein Besucher möchte ich eine Suchfunktion auf der Website haben, damit ich spezifische Projekte schnell finden kann. |
 | 8    | Muss            | Funktional  | Als ein Besucher möchte ich eine übersichtliche Navigationsleiste sehen, damit ich schnell zwischen den Seiten wechseln kann. |
 | 9    | Kann            | Rand        | Als ein Besucher möchte ich eine Feedback-Möglichkeit auf der Kontaktseite haben, damit ich sofort Rückmeldungen geben kann. |
-| 10   | Kann            | Qualität    | Als ein Besucher möchte ich animierte Übergänge zwischen den Seiten haben, damit die Benutzererfahrung flüssiger und ansprechender wird. 
+| 10   | Kann            | Qualität    | Als ein Besucher möchte ich animierte Übergänge zwischen den Seiten haben, damit die Benutzererfahrung flüssiger und ansprechender wird.
 | 11   | Muss            | Funktional  | Als ein Besucher möchte ich jedes Projekt auf einer eigenen Detailseite sehen können, damit ich vollständige Informationen dazu erhalte.
-| 12   | Kann            | Rand        | Als ein Besucher möchte ich eine "Über mich"-Seite sehen, damit ich mehr über den Websiten-Besitzer erfahren kann. 
-| 13   | Muss            | Funktional  | Als ein Besucher möchte ich eine Funktion haben, um Projekte nach Kategorien zu filtern, damit ich schnell die Projekte finde, die mich interessieren. 
-| 14   | Kann            | Qualität    | Als ein Besucher möchte ich Ladeanimationen sehen, damit die Seite professioneller und interaktiver wirkt. 
-| 15  | Muss            | Funktional  | Als ein Besucher möchte ich, dass die Website barrierefrei ist, damit sie für alle Nutzer zugänglich ist. 
-| 16   | Kann            | Rand        | Als ein Besucher möchte ich die Möglichkeit haben, das Design der Seite zwischen einem hellen und einem dunklen Modus zu wechseln, damit die Seite angenehmer zu benutzen ist. 
+| 12   | Kann            | Rand        | Als ein Besucher möchte ich eine "Über mich"-Seite sehen, damit ich mehr über den Websiten-Besitzer erfahren kann.
+| 13   | Muss            | Funktional  | Als ein Besucher möchte ich eine Funktion haben, um Projekte nach Kategorien zu filtern, damit ich schnell die Projekte finde, die mich interessieren.
+| 14   | Kann            | Qualität    | Als ein Besucher möchte ich Ladeanimationen sehen, damit die Seite professioneller und interaktiver wirkt.
+| 15  | Muss            | Funktional  | Als ein Besucher möchte ich, dass die Website barrierefrei ist, damit sie für alle Nutzer zugänglich ist.
+| 16   | Kann            | Rand        | Als ein Besucher möchte ich die Möglichkeit haben, das Design der Seite zwischen einem hellen und einem dunklen Modus zu wechseln, damit die Seite angenehmer zu benutzen ist.
 
 ### 1.3 Testfälle
 
@@ -71,7 +71,7 @@ Ich erstelle in diesem Projekt eine Webseite, über mich auf welcher man meine P
 | 16.B |       | Lukas      | Umschaltfunktion für hellen und dunklen Modus mit JavaScript umsetzen           |  45 min              |
 | 17.A |       | Lukas      | Projektdokumentation          |               |
 | 17.B |       | Lukas      | Portfoliobeitrag          |               |
-Total: 
+Total:
 
 
 ## 3 Entscheiden
@@ -132,4 +132,3 @@ Ich bin nicht wirklich zufrieden mit meinem Projekt, ich hätte mehr machen müs
 ## 6 Auswerten
 
 Link zum Portfoliobeitrag: https://portfolio.bbbaden.ch/view/view.php?t=0055a491798c7a14b92f
-

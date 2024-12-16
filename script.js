@@ -1,42 +1,42 @@
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
-        e.preventDefault(); 
+        e.preventDefault();
         document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth' 
+            behavior: 'smooth'
         });
     });
 });
 
 
 const fadeOutAndNavigate = (url) => {
-    document.body.classList.add('fade-out'); 
+    document.body.classList.add('fade-out');
 
-    
+
     setTimeout(() => {
-        window.location.href = url; 
-    }, 200); 
+        window.location.href = url;
+    }, 200);
 };
 
 
 document.querySelectorAll('a').forEach(link => {
     link.addEventListener('click', function(event) {
-        if (this.href !== window.location.href && this.pathname !== window.location.pathname) { 
-            event.preventDefault(); 
-            fadeOutAndNavigate(this.href); 
+        if (this.href !== window.location.href && this.pathname !== window.location.pathname) {
+            event.preventDefault();
+            fadeOutAndNavigate(this.href);
         }
     });
 });
 
 
 document.addEventListener('DOMContentLoaded', () => {
-    document.body.classList.add('fade-in'); 
+    document.body.classList.add('fade-in');
 
-    
+
     setTimeout(() => {
         document.body.classList.remove('fade-in');
-    }, 200); 
+    }, 200);
 
-    
+
 });
 
 
@@ -49,11 +49,11 @@ document.addEventListener('DOMContentLoaded', () => {
         if (isDarkMode()) {
             document.documentElement.removeAttribute('data-theme');
             themeToggleBtn.textContent = '🌙';
-            localStorage.setItem('theme', 'light'); 
+            localStorage.setItem('theme', 'light');
         } else {
             document.documentElement.setAttribute('data-theme', 'dark');
-            themeToggleBtn.textContent = '💡'; 
-            localStorage.setItem('theme', 'dark'); 
+            themeToggleBtn.textContent = '💡';
+            localStorage.setItem('theme', 'dark');
         }
     };
 
@@ -61,11 +61,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const storedTheme = localStorage.getItem('theme');
     if (storedTheme === 'dark') {
         document.documentElement.setAttribute('data-theme', 'dark');
-        themeToggleBtn.textContent = '💡'; 
+        themeToggleBtn.textContent = '💡';
     } else {
-        themeToggleBtn.textContent = '🌙'; 
+        themeToggleBtn.textContent = '🌙';
     }
 
-    
+
     themeToggleBtn.addEventListener('click', toggleTheme);
 });
