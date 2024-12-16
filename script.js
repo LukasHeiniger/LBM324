@@ -1,3 +1,5 @@
+// smooth scrooling bei links anklicken
+
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
         e.preventDefault();
@@ -7,7 +9,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-
+//fade out
 const fadeOutAndNavigate = (url) => {
     document.body.classList.add('fade-out');
 
@@ -28,6 +30,8 @@ document.querySelectorAll('a').forEach(link => {
 });
 
 
+//fade in
+
 document.addEventListener('DOMContentLoaded', () => {
     document.body.classList.add('fade-in');
 
@@ -39,6 +43,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 });
 
+
+// Darkmode
 
 document.addEventListener('DOMContentLoaded', () => {
     const themeToggleBtn = document.getElementById('theme-toggle');
