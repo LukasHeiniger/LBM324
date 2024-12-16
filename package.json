@@ -1,4 +1,10 @@
 {
+  "name": "Modul324",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "echo 'Building project...'",  
+    "test": "echo 'No tests to run'"
+  },
   "devDependencies": {
     "cypress": "^13.16.1"
   }
